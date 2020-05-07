@@ -7,7 +7,7 @@ import line_plotting
 if __name__ == "__main__":
 
     #import tiff map to numpy array
-    dir = 'C:/Users/Teun/Desktop/world_in_tifs/'
+    dir = 'C:/__whatever_your_directory_is__'
     map = tiff.imread(dir + 'worldmap_(576, 1728).tiff')
     map = np.array(map, dtype=float)
     print('map.shape=', map.shape)
